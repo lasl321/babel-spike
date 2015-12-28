@@ -12,5 +12,8 @@
     "build": "./node_modules/.bin/babel.cmd src -d lib"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "babel": {
+       "presets": ["es2015"]
+  }
 }
