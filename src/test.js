@@ -1,8 +1,6 @@
-function foo(params) {
-    console.log('this is a test');
-    var s = [1, 3];
-    var t = s.map(i => i + 2);
-    
-    console.log(t);
-    
+function factorial(n, acc = 1) {
+    "use strict";
+    if (n <= 1) return acc;
+    return factorial(n - 1, n * acc);
 }
+
