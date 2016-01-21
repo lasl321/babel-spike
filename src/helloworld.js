@@ -10,3 +10,7 @@ function sayHello () {
 function somethingElse(params) {
     return 'foo';
 }
+
+function testFunction(params) {
+    return params;
+}
