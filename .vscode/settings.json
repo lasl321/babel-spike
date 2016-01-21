@@ -1,8 +1,7 @@
 {
     "files.exclude": {
         "node_modules": true,
-        "lib": true
+        "build": true
     },
-    
     "editor.renderWhitespace": true
 }
